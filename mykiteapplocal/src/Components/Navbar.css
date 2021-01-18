@@ -1,0 +1,73 @@
+.navigationBar {
+    background-color: orange;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16;
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+
+.navigationBar-container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:80;
+    max-width:1480;
+}
+
+.navigationBar-logo {
+    color: white;
+    justify-self: start;
+    margin-left: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size:20px;
+    display: flex;
+    align-items:center;
+}
+
+.fa-typo3 {
+    margin-left: 40px;
+    font-size: 50px;
+}
+
+.navigation-menu {
+    display: grid;
+    grid-template-columns: repeat (4,auto); 
+    /* ważne sprawdzić jak zaimpletmentować grid to jest coś nowego */
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 200px; 
+    justify-content: ends;
+    margin-right: 40px;
+}
+
+.navigation-links {
+    color: white;
+    display: flex;
+    align-items:center;
+    text-decoration: none;
+    padding: 10px, 20px;
+    height: 100%;
+}
+
+.navigation-links: hover {
+    border-bottom: 4px solid white;
+    transition: width 4s, heigh 4s;
+}
+
+.fa-bars {
+    color: pink;
+}
+
+.navigation-links-mobile {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
