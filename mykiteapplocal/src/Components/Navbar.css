@@ -1,10 +1,10 @@
 .navigationBar {
-    background-color: orange;
+    background-color: #F72585;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16;
+    font-size: 18;
     position:sticky;
     top:0;
     z-index:999;
@@ -14,14 +14,14 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    height:80;
-    max-width:1480;
+    height:130;
+    max-width:1920;
 }
 
 .navigationBar-logo {
     color: white;
     justify-self: start;
-    margin-left: 30px;
+    margin-left: 10px;
     cursor: pointer;
     text-decoration: none;
     font-size:20px;
@@ -31,19 +31,24 @@
 
 .fa-typo3 {
     margin-left: 40px;
-    font-size: 50px;
+    font-size: 20px;
+}
+
+.fa-water{
+    margin-left: 20px;
+    font-size: 30px;
 }
 
 .navigation-menu {
-    display: grid;
-    grid-template-columns: repeat (4,auto); 
-    /* ważne sprawdzić jak zaimpletmentować grid to jest coś nowego */
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 200px; 
-    justify-content: ends;
-    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto; 
+    align-items:center;
+    margin-right: 20px;
 }
 
 .navigation-links {
@@ -55,13 +60,15 @@
     height: 100%;
 }
 
-.navigation-links: hover {
-    border-bottom: 4px solid white;
-    transition: width 4s, heigh 4s;
+.navigation-links:hover {
+    border-bottom: solid;
+    border-size: 5px;
+    height: 50px;
+    border-color: white;
 }
 
 .fa-bars {
-    color: pink;
+    color: #ffffff;
 }
 
 .navigation-links-mobile {
