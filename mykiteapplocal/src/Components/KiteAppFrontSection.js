@@ -7,7 +7,7 @@ function KiteAppFrontSection() {
     return (
         <div className='kiteApp-containter'>
             <h1> Adventruer Awaites</h1>
-            <h1>Kocham Cię Antosiu</h1> 
+            <p>Kocham Cię Antosiu</p> 
             <div className='app-btns'>
                 <Button
                     className='btns'

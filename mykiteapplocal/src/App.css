@@ -4,3 +4,27 @@ body {
   color: #222222;
   font-family: 'Open Sans', sans-serif;
 }
+.Home,
+.Contact,
+.Courses,
+.Instructors,
+.Kiteschools,
+.Spots {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 300px
+}
+
+.Home,
+.Contact,
+.Courses,
+.Instructors,
+.Kiteschools,
+.Spots,
+.kiteApp-containter {
+  background-color: pink;
+  background-image: url('../src/images/kitesurfingappmainpage.jpg');
+  height: 90vh;
+}
