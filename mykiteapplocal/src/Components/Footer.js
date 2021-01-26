@@ -1,29 +1,53 @@
-import React from 'react'
-import Button from './Button'
+import React from 'react';
+import Button from './Button';
+import './Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
         <div className='footerContainer'>
-            <section className='footerSubscription'>
-                <p className='footerSubscriptionHeading'>
-                    Get in touch with best Kite team ever
-                </p>
-                <p className='footerSubscriptionText'>
-                    we are waiting all day for your message, 
-                    unless there is a grate wind and then we are on surfing :)
-                </p>
-                <div className='inputFromArea'>
-                    <form>
-                        <label for="name">First name:</label>
-                            <input type='text' name='name' placeholder='Your Name' className='inputStyle'/> 
-                        <label for="email">First name:</label>
-                            <input type='email' name='email' placeholder='Your E-mail' className='inputStyle'/> 
-                        <label for="leaveMessage">First name:</label>
-                            <input type='text' name='leaveMessage' placeholder='Leave us a message' className='inputStyle'/> 
-                        <Button style='btnOutline'> Send </Button>
-                    </form>
+            <div className='footerLinks'>
+                <div className='footerLinksWrapper'>
+                    <div className='footerHeadline'>
+                        <h2> Find Us</h2>  
+                        <Link 
+                        to='/'
+                        target='_blank'
+                        aria-label='Facebook'>
+                        <i className='fab fa-facebook-f' />    
+                        </Link>
+                        <Link 
+                        to='/'
+                        target='_blank'
+                        aria-label='Instagram'>
+                        <i className='fab fa-instagram'/>    
+                        </Link>
+                    </div>
+                    <div>
+                        <p>
+                            Your Kite Spot
+                            Kite Street 123
+                            00-987 Beach Place
+                            Phone 898 88 898
+                            e-mail@e-mail.com
+                        </p>
+                    </div>
+                    <div className='footerHeadline'>
+                        <h2> Sitemap</h2>
+                    </div>
+                    <div className='footerLinksItems'>
+                        <Link to='/'> Homepage </Link>
+                        <Link to='/Spots'> Spots </Link>
+                        <Link to='/Instructors'> Instructors </Link>
+                        <Link to='/Kiteschools'> Kiteschools </Link>
+                        <Link to='/Courses'> Courses </Link>
+                        <Link to='/Contact'> Contact </Link>
+                    </div>
                 </div>
-            </section>
+            </div>
+            <div>
+                <small className='websiteRigth'>KiteSurfApp &copy; 2021</small>
+            </div>
         </div>
 
     );

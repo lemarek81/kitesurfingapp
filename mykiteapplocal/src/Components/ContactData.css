@@ -1,0 +1,30 @@
+.contactDataContainer{
+    max-width: 1240px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    padding: 60px;
+}
+
+.contactDetails{
+    background: violet;
+}
+                
+.contactAddress{
+    background: blue;
+}
+                    
+a  {
+
+}
+
+iframe{
+    width: 450px; 
+    height:450px;
+    frameborder: 0px; 
+    scrolling: none; 
+    marginheight: 0px; 
+    marginwidth: 0px;
+} 

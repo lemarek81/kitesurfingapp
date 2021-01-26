@@ -4,3 +4,7 @@
 [0122/224034.125:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie moøe odnaleüÊ okreúlonej úcieøki. (0x3)
 [0123/001102.363:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Nowy W≈Ça≈õciciel\AppData\Local\AVAST Software\Browser\User Data\Crashpad\attachments\d5504176-9b70-4708-a3fb-d1f0fa705e7a: System nie moøe odnaleüÊ okreúlonej úcieøki. (0x3)
 [0123/123138.442:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie moøe odnaleüÊ okreúlonej úcieøki. (0x3)
+[0124/002627.929:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie moøe odnaleüÊ okreúlonej úcieøki. (0x3)
+[0124/121715.357:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Nowy W≈Ça≈õciciel\AppData\Local\AVAST Software\Browser\User Data\Crashpad\attachments\5052fb12-c565-45de-ad9a-6c3e3ec4ada2: System nie moøe odnaleüÊ okreúlonej úcieøki. (0x3)
+[0124/182104.503:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Nowy W≈Ça≈õciciel\AppData\Local\AVAST Software\Browser\User Data\Crashpad\attachments\3b3cfa5e-c675-4fe8-8bb4-6a4a4286eba9: System nie moøe odnaleüÊ okreúlonej úcieøki. (0x3)
+[0125/230907.831:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie moøe odnaleüÊ okreúlonej úcieøki. (0x3)

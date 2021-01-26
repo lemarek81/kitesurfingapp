@@ -54,3 +54,39 @@
     color: pink;
     transition: width 2s, height 4s;
 }
+/* 
+
+button {
+    background: #05A081;
+    padding: 15px 30px;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#05a081, #058258);
+  }
+  
+  button:active {
+    box-shadow: 2px 2px 5px #000;
+  }
+  
+
+
+
+  .button-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .forget-link {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #05a081;
+  } */
