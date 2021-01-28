@@ -4,9 +4,12 @@ import './ContactForm.css'
 
 function contactForm() {
     return (
+        <>
         <div className='contactFormContainer'>
-            <h1>Contact Us</h1>
+            <div className='contactFormWrapper'> 
+            <div className='pageHeadline'>Contact Us</div>
             <section className='contactForm'>
+            
                 <p className='contactFormHeading'>
                     Get in touch with best Kite team ever
                 </p>
@@ -22,11 +25,13 @@ function contactForm() {
                             <input type='email' name='email' placeholder='E-mail' className='inputStyle'/> 
                         <label for="leaveMessage">Leave a message:</label>
                             <input type='text' name='leaveMessage' placeholder='Write us few lines (max 500 signs)' maxlength='500' className='inputStyle'/> 
-                        <Button type='submit' style='btn'> Send </Button>
+                        <Button type='submit' > Send </Button>
                     </form>
                 </div>
             </section>
+            </div>
         </div>
+        </>
 
     );
     }

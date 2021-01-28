@@ -8,9 +8,12 @@ import Instructors from './Components/pages/Instructors';
 import Kiteschools from './Components/pages/Kiteschools';
 import Courses from './Components/pages/Courses';
 import Contact from './Components/pages/Contact';
+import Footer from'./Components/Footer';
+
+
 function App() {
   return (
-    <div>
+    <div className='pageContainer'>
       <Router>
         <Navbar></Navbar>
         <Switch>
@@ -21,6 +24,7 @@ function App() {
           <Route path='/Courses' exact component={Courses}></Route>
           <Route path='/Contact' exact component={Contact}></Route>
         </Switch>
+        <Footer/>
       </Router>
     </div>
   );

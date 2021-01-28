@@ -1,5 +1,5 @@
 .contactFormContainer {
-    max-width: 1240px;
+    max-width: 100%;
     background-color: #ffff;
     display: flex;
     justify-content: center;
@@ -8,16 +8,29 @@
     padding: 60px;
 }
 
+.contactFormWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 960px;
+}
+.pageHeadline {
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #F72585;
+}
 
 .contactForm {
-    width: 80%;
+    width: 100%;
     max-width: 960px;
     background-color: #7209B7;
     display: flex;
     justify-content: center;
     flex-direction: column;
     border-radius: 20px;
-    margin: 4rem 4 2rem 6;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     padding: 40px;
    }
@@ -53,7 +66,7 @@
   input::placeholder {
     color: white;
 }
-  
+
   .inputStyle {
     padding: 15px;
     border: none;
@@ -65,10 +78,7 @@
     color: white;
     font-size: medium;
   }
-  :placeholder {
-      color: white;
-  }
-  
+ 
   .inputStyle:nth-of-type(3) {
     width: 100%;
     height:200px; 

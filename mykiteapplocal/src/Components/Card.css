@@ -3,10 +3,6 @@
     background-color: blue;
 }
 
-h1 {
-    text-align: center;
-}
-
 .cardContainer {
     display: flex;
     flex-direction: column;

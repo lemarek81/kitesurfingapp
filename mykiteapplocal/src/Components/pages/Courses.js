@@ -1,11 +1,12 @@
 import React from 'react';
 import '../../App.css';
+import CoursesList from '../CoursesList';
 
 function Courses () {
     return (
-    <h1 className='Courses'> 
-    Courses
-    </h1>
+    <>
+        <CoursesList/>
+    </>
     );
 }
 export default Courses;

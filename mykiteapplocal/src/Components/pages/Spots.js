@@ -1,14 +1,11 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
+import SpotDescription from '../SpotDescription';
 
 function Spots () {
     return (
     <>
-    <h1 className='Spots'>
-    Spots
-    </h1>
-    <Footer />
+    <SpotDescription />
     </>
     );
 }

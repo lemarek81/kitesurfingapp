@@ -1,15 +1,15 @@
 import React from 'react';
 import '../../App.css';
-import Card from '../Card';
 import KiteAppFrontSection from '../KiteAppFrontSection';
-import Footer from '../Footer';
+import KiteAppWeatherForecast from '../KiteAppWeatherForecast';
+import KiteAppInstructorAndSchool from '../KiteAppInstructorAndSchool';
 
 function Home () {
     return (
         <>
             <KiteAppFrontSection />
-            <Card />
-            <Footer />
+            <KiteAppWeatherForecast />
+            <KiteAppInstructorAndSchool />
         </>
     );
 }
