@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from './Button'
 import './ContactForm.css'
 
 function contactForm() {
@@ -9,7 +8,6 @@ function contactForm() {
             <div className='contactFormWrapper'> 
             <div className='pageHeadline'>Contact Us</div>
             <section className='contactForm'>
-            
                 <p className='contactFormHeading'>
                     Get in touch with best Kite team ever
                 </p>
@@ -25,7 +23,7 @@ function contactForm() {
                             <input type='email' name='email' placeholder='E-mail' className='inputStyle'/> 
                         <label for="leaveMessage">Leave a message:</label>
                             <input type='text' name='leaveMessage' placeholder='Write us few lines (max 500 signs)' maxlength='500' className='inputStyle'/> 
-                        <Button type='submit' > Send </Button>
+                        <button type='submit' > Send </button>
                     </form>
                 </div>
             </section>
