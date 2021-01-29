@@ -1,0 +1,88 @@
+.footerContainer {
+    
+    max-width: 100%;
+    background-color: #B5179E;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.footerLinks {
+    max-width: 1240px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footerLinksWrapper {
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    text-align: left;
+    height: 100%;
+}
+
+.footerHeadline {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;}
+
+.footerHeadline h1 {
+    color: black;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    font-size: 3rem;
+}
+.footerHeadline i {
+    font-size: 3rem;
+    margin-left:10px;
+    color:  black;
+}
+
+.footerAddress {
+    display: flex;
+    font-weight: bold;
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    top: 3rem;
+}
+
+.footerAddress p {
+    margin-top: 0;
+}
+.footerLinksItems {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0;
+    position: relative;
+    top: 3rem;
+}
+
+.websiteRigths {
+    box-sizing: block;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+i .fa-instagram {
+    font-size: 4rem;
+    color: red;
+}

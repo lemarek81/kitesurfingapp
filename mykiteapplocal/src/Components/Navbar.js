@@ -35,51 +35,39 @@ function Navbar() {
                 </div>
             <ul className={clickMenu ? 'navigation-menu active' : 'navigation-menu'}>
               <li className='navigation-item'>
-                <Link to='/' className='navigation-links' 
-                onClick={closeMenuForMobileDevices}
-                >
+                <Link to='/' className='navigation-links' >
                 Homepage
                 </Link> 
               </li>
               <li className='navigation-item'>
                 <Link to='/Spots' 
-                className='navigation-links' 
-                onClick={closeMenuForMobileDevices}
-                >
+                className='navigation-links' >
                 Spots
                 </Link> 
               </li>
               <li className='navigation-item'>
                 <Link to='/Instructors' 
-                className='navigation-links' 
-                onClick={closeMenuForMobileDevices}
-                >
+                className='navigation-links'>
                 Instructors
                 </Link> 
               </li>
               <li className='navigation-item'>
                 <Link to='/Kiteschools' 
-                className='navigation-links' 
-                onClick={closeMenuForMobileDevices}
-                >
+                className='navigation-links' >
                 Kiteschools
                 </Link> 
               </li>
               <li className='navigation-item'>
                 <Link 
                 to='/Courses' 
-                className='navigation-links' 
-                onClick={closeMenuForMobileDevices}
-                >
+                className='navigation-links'>
                 Courses
                 </Link> 
               </li>
               <li className='navigation-item'>
                 <Link 
                 to='/Contact' 
-                className='navigation-links' 
-                onClick={closeMenuForMobileDevices}
-                >
+                className='navigation-links' >
                 Contact
                 </Link> 
               </li>

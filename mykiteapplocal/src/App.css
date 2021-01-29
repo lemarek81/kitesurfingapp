@@ -1,6 +1,11 @@
 
 body {
-  background-color: #ECECEC;
+  background-color: #ffffff;
   color: #222222;
   font-family: 'Open Sans', sans-serif;
 }
+
+h1 {
+  color: #F72585 
+}
+
