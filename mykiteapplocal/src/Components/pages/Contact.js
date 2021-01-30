@@ -9,7 +9,6 @@ function Contact () {
     <>
     <ContactForm />
     <ContactData />
-    <Footer />
     </>
     );
 }

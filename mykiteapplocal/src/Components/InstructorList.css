@@ -1,0 +1,20 @@
+.InstructorListContainter {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.InstructorListContainter h1 {
+    align-self: center;
+}
+
+
+.InstructorListWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

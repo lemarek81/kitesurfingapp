@@ -1,4 +1,6 @@
-
+* {
+  margin: 0px;
+}
 body {
   background-color: #ffffff;
   color: #222222;
@@ -9,3 +11,22 @@ h1 {
   color: #F72585 
 }
 
+.pageContainer {
+  align-items:center;
+  background-color: rgb(153, 148, 148);
+}
+
+
+button {
+  width: 150px;
+  height: 30px;
+  border-style: none;
+  border-radius: 20px;
+  background-color: #F72585;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(153, 148, 148);
+  font-weight: bold;
+}

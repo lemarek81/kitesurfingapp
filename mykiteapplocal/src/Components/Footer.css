@@ -1,5 +1,4 @@
 .footerContainer {
-    
     max-width: 100%;
     background-color: #B5179E;
     display: flex;
@@ -25,6 +24,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 16px;
     text-align: left;
