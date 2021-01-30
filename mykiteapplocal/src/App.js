@@ -13,7 +13,7 @@ import Footer from'./Components/Footer';
 
 function App() {
   return (
-    <div className='pageContainer'>
+    <div className='pageContainer clearfix'>
       <Router>
         <Navbar></Navbar>
         <Switch>

@@ -7,9 +7,13 @@ export default function InstructorList() {
 
     
     return (
-        <div>
-        
+        <div className='InstructorListContainter'>
+            <h1> 
+                Instructors
+            </h1>
+            <div className='InstructorListWrapper'>
             <InstructorComponent />
+            </div>
         </div>
     )
 }

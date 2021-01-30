@@ -1,15 +1,15 @@
 import React from 'react';
 import '../../App.css';
-import KiteAppFrontSection from '../KiteAppFrontSection';
+// import KiteAppFrontSection from '../KiteAppFrontSection';
 import KiteAppWeatherForecast from '../KiteAppWeatherForecast';
-import KiteAppInstructorAndSchool from '../KiteAppInstructorAndSchool';
+// import KiteAppInstructorAndSchool from '../KiteAppInstructorAndSchool';
 
 function Home () {
     return (
         <>
-            <KiteAppFrontSection />
+            {/* <KiteAppFrontSection /> */}
             <KiteAppWeatherForecast />
-            <KiteAppInstructorAndSchool />
+            {/* <KiteAppInstructorAndSchool /> */}
         </>
     );
 }

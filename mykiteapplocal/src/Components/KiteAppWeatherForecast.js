@@ -16,6 +16,7 @@ class  KiteAppWeatherForecast extends Component {
         pressure:" ",
         wind: " ",
         err: " ",
+        weather: {}
     }
 
     handleInputInsert = (e) => {
@@ -26,47 +27,51 @@ class  KiteAppWeatherForecast extends Component {
 
     handleCitySubmit = e => {
         e.preventDefault();
-        console.log('potwierdzony formylarz');
+        console.log('potwierdzony formularz');
 
-        fetch(`https://community-open-weather-map.p.rapidapi.com/weather?q=${this.state.value}%2Cuk&lat=0&lon=0&callback=test&id=2172797&lang=null&units=%22metric%22%20or%20%22imperial%22&mode=xml%2C%20html`, {
+        fetch(`https://community-open-weather-map.p.rapidapi.com/weather?q=${this.state.value}&units=metric`, {
             "method": "GET",
             "headers": {
                 "x-rapidapi-key": "4db6c1ed6emsh4f030ab748f9166p130092jsna1c47eeee0e4",
                 "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com"
             }
         })
-        .then(response => {
-            if(response.ok){
-                return response
-            }
-            throw Error("nie działa lub nie ten spot")
-        })
         .then(response => response.json())
         .then(data => {
             this.setState({
-                err:false
+                temp:data.main.temp,
+                wind:data.wind,
+                weather: data.weather
             })
         })
         .catch(err => {
             console.error(err);
-            this.state({
+            this.setState({
                 err: true
             })
         });
     }
 
     render() {
+
+
+
         return (
             <div className='kiteWeatherContainer'>
-                <h1> WindGuru Weather Forecast </h1>
+                <h1> Weather Forecast </h1>
                 <FormWeatherComponent 
                 value={this.state.value} 
                 change={this.handleInputInsert} 
                 submit={this.handleCitySubmit}
                 />
+                <div className='weatherResults'>
                 <ResultWeatherComponent
+                temp={this.state.temp}
+                weather={this.state.weather}
+                wind={this.state.wind}
                 error={this.state.err}
                 />
+                </div>
             </div>
         )
     };

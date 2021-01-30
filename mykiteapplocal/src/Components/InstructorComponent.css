@@ -1,0 +1,62 @@
+
+.InstructorComponentCard {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.InstructorComponentCardDetail {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.InstructorComponentCardDetail:hover {
+    opacity: 0.3;
+}
+
+.instructorImg {
+    max-width: 80%;
+    display: block;
+    border-radius: 50%;
+    border: solid 5px yellow;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    object-fit: scale-down;
+    margin:3px;
+}
+
+
+.Img:hover {
+    opacity: 0.3;
+}
+.InstructorComponentCardDetail h2 {
+    color: blue;
+}
+
+.InstructorComponentCardDetail span {
+    display:block;
+    /* margin: 3px; */
+}
+
+.licensenumber,
+.studnetsnumber, 
+.rating {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+.schoolname {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: darkblue;
+}

@@ -5,8 +5,8 @@ import SchoolList from '../SchoolList';
 function Kiteschools () {
     return (
     <>
-    <h1>
-    Kiteschools
+    <h1> 
+         Instructors
     </h1>
     <SchoolList />
     </>
