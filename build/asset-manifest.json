@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kitesurfingapp/static/css/main.a9c99ad0.chunk.css",
+    "main.js": "/kitesurfingapp/static/js/main.68090f0d.chunk.js",
+    "main.js.map": "/kitesurfingapp/static/js/main.68090f0d.chunk.js.map",
+    "runtime-main.js": "/kitesurfingapp/static/js/runtime-main.819c7fcc.js",
+    "runtime-main.js.map": "/kitesurfingapp/static/js/runtime-main.819c7fcc.js.map",
+    "static/js/2.4d4c6c95.chunk.js": "/kitesurfingapp/static/js/2.4d4c6c95.chunk.js",
+    "static/js/2.4d4c6c95.chunk.js.map": "/kitesurfingapp/static/js/2.4d4c6c95.chunk.js.map",
+    "index.html": "/kitesurfingapp/index.html",
+    "static/css/main.a9c99ad0.chunk.css.map": "/kitesurfingapp/static/css/main.a9c99ad0.chunk.css.map",
+    "static/js/2.4d4c6c95.chunk.js.LICENSE.txt": "/kitesurfingapp/static/js/2.4d4c6c95.chunk.js.LICENSE.txt",
+    "static/media/KiteAppWeatherForecast.css": "/kitesurfingapp/static/media/kitesmain1.ba4171f6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.819c7fcc.js",
+    "static/js/2.4d4c6c95.chunk.js",
+    "static/css/main.a9c99ad0.chunk.css",
+    "static/js/main.68090f0d.chunk.js"
+  ]
+}
