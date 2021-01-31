@@ -1,0 +1,19 @@
+[33m3c40c06[m[33m ([m[1;36mHEAD -> [m[1;32mgh-pages[m[33m)[m HEAD@{0}: commit (merge): merge
+[33mdff2f8d[m HEAD@{1}: commit: updated pictures issue
+[33m980758c[m HEAD@{2}: commit: confgh pages
+[33m812f867[m HEAD@{3}: pull origin development: Merge made by the 'recursive' strategy.
+[33mad80afb[m HEAD@{4}: checkout: moving from development to gh-pages
+[33m8d5347d[m[33m ([m[1;32mdevelopment[m[33m, [m[1;32mall[m[33m)[m HEAD@{5}: commit: change repo direction
+[33me5df658[m HEAD@{6}: commit: względnie skończone
+[33ma4461f1[m HEAD@{7}: commit: podpiete firebase i api wether - oba nie dzialaja
+[33mfd1daa7[m HEAD@{8}: commit: update fron page
+[33m6fd8d11[m HEAD@{9}: pull --tags origin master: Merge made by the 'recursive' strategy.
+[33me70fee0[m HEAD@{10}: commit: contact form update
+[33m9608aa2[m HEAD@{11}: commit: contact from preliminary settings
+[33mb17fe18[m HEAD@{12}: commit: update front page
+[33mb97ddfb[m HEAD@{13}: commit: navigation draft
+[33m456285b[m HEAD@{14}: commit: start creation
+[33m6f50f86[m HEAD@{15}: commit: start creation
+[33m29a7d65[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{16}: checkout: moving from master to development
+[33m29a7d65[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{17}: commit: test commit
+[33m425e6d0[m HEAD@{18}: commit (initial): first commit
