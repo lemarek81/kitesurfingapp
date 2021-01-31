@@ -24,14 +24,20 @@
     opacity: 0.3;
 }
 
-.instructorImg {
+.instructorImg2 {
     max-width: 80%;
+    width: 82px;
+    height: 82px;
     display: block;
     border-radius: 50%;
     border: solid 5px yellow;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    object-fit: scale-down;
+    object-fit: cover;
     margin:3px;
+    background: url('./facexample.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 

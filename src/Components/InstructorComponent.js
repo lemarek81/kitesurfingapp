@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import firebase from '../firebase';
-import './InstructorComponent.css'
+import './InstructorComponent.css';
 
 function InstructorComponent() {
   const [instructors, setInstructors] =  useState([]);
@@ -31,7 +31,7 @@ return (
     className='InstructorComponentCardDetail'
     key={item.licencenumber}>
     <h2>{item.name}</h2>
-    <img className='instructorImg' src='../images/facexample.jpg' alt='instructor'></img> 
+    <span className='instructorImg2' alt='instructor'></span> 
     <span className='licensenumber'>{item.licencenumber}</span>
     <span className='studnetsnumber'>{item.assosiatestudents}</span>
     <span className='studnetsnumber'>{item.assosiatestudnets}</span>

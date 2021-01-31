@@ -27,11 +27,17 @@
 
 .instructorImg {
     max-width: 80%;
+    width:82px;
+    height: 82px;
     display: block;
     border-radius: 50%;
     border: solid 5px rgb(10, 168, 196);
     object-fit: scale-down;
     margin:3px;
+    background: url('./kiteshoolexample1.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 

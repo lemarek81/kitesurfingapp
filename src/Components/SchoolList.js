@@ -31,7 +31,7 @@ return (
     className='SchoolComponentCardDetail'
     key={item.licencenumber}>
     <h2>{item.name}</h2>
-    <img className='instructorImg' src='../images/kiteshoolexample1.jpg' alt='school'></img> 
+    <span className='instructorImg' ></span> 
     <span className='licensenumber'>{item.licencenumber}</span>
     <span className='location'>{item.location}</span>
     {/* <span className='phone'>{item.phone}</span>
